@@ -71,7 +71,7 @@ const localeSetting = useState<string>('locale.setting')
         :value="lang.iso"
         class="flex items-center space-x-2"
       >
-        {{ lang.flag }} {{ lang.name }} ({{ lang.iso }})
+        {{ lang.name }}
       </option>
     </select>
   </div>

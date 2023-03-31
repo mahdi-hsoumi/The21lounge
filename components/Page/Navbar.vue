@@ -80,7 +80,7 @@ const menus = computed((): IMenuItem[] => [
     <template #options="{ toggleOptions }">
       <ActionSheet @on-close="toggleOptions(false)">
         <ActionSheetBody>
-          <ActionSheetHeader text="Menu" />
+          <!-- <ActionSheetHeader text="Menu" /> -->
           <nav class="leading-6 font-semibold text-gray-600 dark:text-gray-300">
             <ul class="flex flex-col">
               <li
@@ -126,10 +126,10 @@ const menus = computed((): IMenuItem[] => [
         <Button
           type="secondary"
           title="Github"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
+          href="https://www.facebook.com/profile.php?id=100069549776439"
         >
-          <IconMdi:github-face />
-          <span class="ml-1">Github</span>
+          <IconMdi:facebook />
+          <span class="ml-1">Facebook</span>
         </Button>
         <Button
           text="Close"

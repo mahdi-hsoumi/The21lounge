@@ -110,7 +110,7 @@ const toggleOptions = (show?: boolean) => {
                 class="flex items-center text-gray-600 dark:text-gray-300 text-sm"
                 aria-hidden="true"
               >
-                <icon-fa-solid:ellipsis-v />
+                <icon-fa-solid:bars />
               </span>
             </button>
           </div>
