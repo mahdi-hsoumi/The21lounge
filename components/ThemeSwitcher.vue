@@ -45,7 +45,7 @@ const currentStyle = toRef(props, 'type')
         </span>
       </ListboxButton>
       <ListboxOptions
-        class="p-1 absolute z-50 top-full right-0 outline-none bg-white rounded-lg ring-1 ring-gray-900/10 shadow-lg overflow-hidden w-36 py-1 text-sm text-gray-700 font-semibold dark:bg-gray-800 dark:ring-0 dark:highlight-white/5 dark:text-gray-300"
+        class="p-1 absolute z-50 top-full right-0 outline-none bg-white rounded-lg ring-1 ring-gray-900/10 shadow-lg overflow-hidden w-24 py-1 text-sm text-gray-700 font-semibold dark:bg-gray-800 dark:ring-0 dark:highlight-white/5 dark:text-gray-300"
       >
         <ListboxOption
           v-for="theme in availableThemes"
@@ -62,8 +62,6 @@ const currentStyle = toRef(props, 'type')
           <span class="text-sm mr-2 flex items-center">
             <IconUil:sun v-if="theme.key === 'light'" />
             <IconUil:moon v-else-if="theme.key === 'dark'" />
-            <IconUil:laptop v-else-if="theme.key === 'system'" />
-            <IconUil:clock v-else-if="theme.key === 'realtime'" />
           </span>
           {{ theme.text }}
         </ListboxOption>

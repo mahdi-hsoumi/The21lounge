@@ -1,4 +1,4 @@
-import { useI18n } from 'vue-i18n'
+import { useI18n } from 'vue-i18n';
 
 export interface ILocales {
   [key: string]: {
@@ -14,25 +14,15 @@ export const availableLocales: ILocales = {
     iso: 'en',
     flag: '🇺🇸',
   },
-  id: {
-    name: 'Bahasa',
-    iso: 'id',
-    flag: '🇮🇩',
+  fr: {
+    name: 'Français',
+    iso: 'fr',
+    flag: 'fr',
   },
-  ja: {
-    name: '日本語',
-    iso: 'ja',
-    flag: '🇯🇵',
-  },
-  ko: {
-    name: '한국어',
-    iso: 'ko',
-    flag: '🇰🇷',
-  },
-  zh: {
-    name: '简体中文',
-    iso: 'zh',
-    flag: '🇨🇳',
+  ar: {
+    name: 'عربية',
+    iso: 'ar',
+    flag: 'tn',
   },
 }
 

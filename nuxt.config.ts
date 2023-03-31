@@ -1,5 +1,5 @@
-import UnpluginComponentsVite from 'unplugin-vue-components/vite'
-import IconsResolver from 'unplugin-icons/resolver'
+import IconsResolver from 'unplugin-icons/resolver';
+import UnpluginComponentsVite from 'unplugin-vue-components/vite';
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -68,7 +68,7 @@ export default defineNuxtConfig({
     vueI18n: {
       locale: 'en',
       fallbackLocale: 'en',
-      availableLocales: ['en', 'id', 'ja', 'ko'],
+      availableLocales: ['en', 'fr', 'ar'],
     },
   },
 

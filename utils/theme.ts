@@ -8,8 +8,6 @@ export const availableThemes: {
 }[] = [
   { key: 'light', text: 'Light' },
   { key: 'dark', text: 'Dark' },
-  { key: 'system', text: 'System' },
-  { key: 'realtime', text: 'Realtime' },
 ]
 
 export function ThemeManager() {

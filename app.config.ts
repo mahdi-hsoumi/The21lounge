@@ -1,7 +1,7 @@
 export default defineAppConfig({
-  name: 'Nuxt 3 Awesome Starter',
+  name: 'The 21 Lounge',
   author: {
-    name: 'viandwi24',
+    name: 'Quick Menu',
     link: 'https://github.com/viandwi24',
   },
 })

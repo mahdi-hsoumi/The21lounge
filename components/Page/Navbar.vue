@@ -9,28 +9,20 @@ export interface IMenuItem {
 }
 
 const { t } = useLang()
-const app = useAppConfig() as AppConfigInput
+// const app = useAppConfig() as AppConfigInput
 const menus = computed((): IMenuItem[] => [
-  {
-    type: 'link',
-    text: t('pages.getting-started.nav'),
-    route: { name: 'getting-started' },
-  },
   { type: 'link', text: t('pages.blank.nav'), route: { name: 'blank' } },
-  { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
-  { type: 'link', text: t('pages.post.nav'), route: { name: 'post' } },
-  { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
-  {
-    type: 'button',
-    text: t('pages.dashboard.nav'),
-    route: { name: 'dashboard' },
-  },
+  // {
+  //   type: 'button',
+  //   text: t('pages.dashboard.nav'),
+  //   route: { name: 'dashboard' },
+  // },
 ])
 </script>
 
 <template>
   <BuilderNavbar>
-    <template #banner>
+    <!-- <template #banner>
       <div
         class="text-white text-xs text-center py-1 px-4 lg:px-8 bg-primary-500 capitalize"
       >
@@ -43,7 +35,7 @@ const menus = computed((): IMenuItem[] => [
           />
         </span>
       </div>
-    </template>
+    </template> -->
     <template #menu>
       <div class="relative hidden lg:flex items-center ml-auto">
         <nav
@@ -77,10 +69,10 @@ const menus = computed((): IMenuItem[] => [
           <ThemeSwitcher />
           <Anchor
             class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center"
-            href="https://github.com/viandwi24/nuxt3-awesome-starter"
-            title="Github"
+            href="https://www.facebook.com/profile.php?id=100069549776439"
+            title="Facebook"
           >
-            <IconMdi:github-face />
+            <IconMdi:facebook />
           </Anchor>
         </div>
       </div>
