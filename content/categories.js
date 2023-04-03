@@ -1,0 +1,18 @@
+export default [
+  { id: 1, title: 'Coffee', image: '/assets/category/coffee.png' },
+  { id: 2, title: 'The', image: '/assets/category/coffee.png' },
+  { id: 3, title: 'Coffee In', image: '/assets/category/coffee.png' },
+  { id: 4, title: 'Glace', image: '/assets/category/coffee.png' },
+  { id: 5, title: 'Juice', image: '/assets/category/coffee.png' },
+  { id: 6, title: 'Crepe', image: '/assets/category/coffee.png' },
+  { id: 7, title: 'Fast food', image: '/assets/category/coffee.png' },
+  { id: 8, title: 'Menu kids', image: '/assets/category/coffee.png' },
+  { id: 9, title: 'Pizza', image: '/assets/category/coffee.png' },
+  { id: 10, title: 'Entree', image: '/assets/category/coffee.png' },
+  { id: 11, title: 'Pasta', image: '/assets/category/coffee.png' },
+  { id: 12, title: 'Plats', image: '/assets/category/coffee.png' },
+  { id: 13, title: 'Sea food', image: '/assets/category/coffee.png' },
+  { id: 14, title: 'Desert', image: '/assets/category/coffee.png' },
+  { id: 15, title: 'Drinks', image: '/assets/category/coffee.png' },
+  { id: 16, title: 'Chicha', image: '/assets/category/coffee.png' },
+]

@@ -1,5 +1,5 @@
-import IconsResolver from 'unplugin-icons/resolver';
-import UnpluginComponentsVite from 'unplugin-vue-components/vite';
+import IconsResolver from 'unplugin-icons/resolver'
+import UnpluginComponentsVite from 'unplugin-vue-components/vite'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   css: ['~/assets/sass/vendor.scss', '~/assets/sass/app.scss'],
 
   // plugins
-  plugins: ['~/plugins/navbar.ts'],
+  plugins: [],
 
   // build
   build: {
@@ -59,7 +59,6 @@ export default defineNuxtConfig({
   app: {
     // global transition
     pageTransition: { name: 'page', mode: 'out-in' },
-    layoutTransition: { name: 'layout', mode: 'out-in' },
   },
 
   // localization - i18n config

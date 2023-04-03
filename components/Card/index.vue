@@ -1,20 +1,31 @@
+import { default } from '../Gem.vue';
 <script lang="ts" setup>
 defineProps({
-  disabled: {
-    type: Boolean,
-    required: false,
+  id: {
+    type: Number,
+    required: true,
+  },
+  title: {
+    type: String,
+    required: true,
+  },
+  image: {
+    type: String,
+    required: true,
   },
 })
 </script>
 
 <template>
-  <div
-    class="card duration-300 transition-colors w-full relative rounded overflow-hidden bg-white dark:bg-slate-900 border border-gray-900/10 dark:border-gray-50/[0.2]"
-  >
+  <NuxtLink :to="'/' + id">
     <div
-      v-if="disabled"
-      class="absolute z-10 top-0 left-0 w-full h-full bg-slate-800/[0.75] cursor-not-allowed"
-    />
-    <slot />
-  </div>
+      class="card-shadow ease-in duration-100 bg-white text-dark rounded-[30px] pb-2.5 pt-5 px-5 border border-borderLight cursor-pointer hover:bg-secondary hover:bg-secondary hover:text-white"
+    >
+      <div>
+        <img :src="image" class="rounded-[30px]" />
+        <h3 class="text-lg font-bold pt-1 text-center">{{ title }}</h3>
+      </div>
+      <slot />
+    </div>
+  </NuxtLink>
 </template>

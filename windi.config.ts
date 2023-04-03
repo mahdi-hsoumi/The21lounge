@@ -1,16 +1,14 @@
-import { defineConfig } from 'windicss/helpers'
-import type { Plugin } from 'windicss/types/interfaces'
-
 // colors
 import colors from 'windicss/colors'
-
 // themes
 import defaultTheme from 'windicss/defaultTheme'
-
-// plugins
-import TypographyPlugin from 'windicss/plugin/typography'
+import { defineConfig } from 'windicss/helpers'
 import AspectRatioPlugin from 'windicss/plugin/aspect-ratio'
 import FiltersPlugin from 'windicss/plugin/filters'
+// plugins
+import TypographyPlugin from 'windicss/plugin/typography'
+
+import type { Plugin } from 'windicss/types/interfaces'
 
 const MyTheme = {
   colors: {
@@ -53,6 +51,21 @@ const MyTheme = {
       '800': '#BB0000',
       '900': '#830000',
     },
+    bgLight: {
+      DEFAULT: '#F9FCFF',
+    },
+    borderLight: {
+      DEFAULT: '#e0e2e4',
+    },
+    secondary: {
+      DEFAULT: '#FF853E',
+    },
+    dark: {
+      DEFAULT: '#3C4144',
+    },
+    grey: {
+      DEFAULT: '#424242',
+    },
   },
 }
 
@@ -78,12 +91,17 @@ export default defineConfig({
       },
       colors: {
         primary: MyTheme.colors.green,
+        secondary: MyTheme.colors.secondary,
+        dark: MyTheme.colors.dark,
+        grey: MyTheme.colors.grey,
         // if want to change primary color to blue
         // primary: MyTheme.colors.blue,
         green: MyTheme.colors.green,
         blue: MyTheme.colors.blue,
         red: MyTheme.colors.red,
         slate: colors.slate,
+        bgLight: MyTheme.colors.bgLight,
+        borderLight: MyTheme.colors.borderLight,
       },
       fontFamily: {
         sans: ['Nunito', ...defaultTheme.fontFamily.sans],

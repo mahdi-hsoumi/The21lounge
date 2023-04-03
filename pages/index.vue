@@ -1,59 +1,34 @@
 <script lang="ts" setup>
-// composable
-const { t } = useLang()
+import categories from '~/content/categories'
 
 // meta
 definePageMeta({
   layout: 'page',
 })
-
-// vars
-const titlesText = computed<string[]>(() => t('pages.index.title').split('[]'))
-const leadingsText = computed(() => [
-  {
-    text: titlesText.value[0],
-    startColor: '#007CF0',
-    endColor: '#00DFD8',
-    delay: 0,
-  },
-  {
-    text: titlesText.value[1],
-    startColor: '#7928CA',
-    endColor: '#FF0080',
-    delay: 2,
-  },
-  {
-    text: titlesText.value[2],
-    startColor: '#FF4D4D',
-    endColor: '#F9CB28',
-    delay: 4,
-  },
-])
-const tooltip = ref(false)
-
-// const
-const cancelTooltip = () => {
-  tooltip.value = false
-  const tt = document.querySelector('.tooltiptext')
-  if (tt) tt.innerHTML = `Copy to clipboard`
-}
-const copyBash = () => {
-  const bash = 'git clone https://github.com/viandwi24/nuxt3-awesome-starter'
-  navigator.clipboard.writeText(bash)
-  tooltip.value = true
-  const tt = document.querySelector('.tooltiptext')
-  if (tt) tt.innerHTML = `Copied!!!`
-}
 </script>
 
 <template>
-  <PageWrapper class="flex-1 flex">
-    <PageBody class="flex-1 flex">
-      <PageSection class="flex-1 flex items-center">
-        <div>Coffee</div>
-      </PageSection>
-    </PageBody>
-  </PageWrapper>
+  <div class="container">
+    <div class="pt-10 px-5 flex justify-center">
+      <div class="flex items-center">
+        <img class="h-24" src="../assets/images/logo.png" alt="" />
+      </div>
+    </div>
+    <div class="pt-12 pb-3 px-5">
+      <p class="font-bold text-lg text-secondary">Welcome!</p>
+      <p class="text-base">What do you want to order</p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
+      <Card
+        v-for="category in categories"
+        :id="category.id"
+        :key="category.id"
+        :title="category.title"
+        :image="category.image"
+      >
+      </Card>
+    </div>
+  </div>
 </template>
 
 <style lang="scss">
