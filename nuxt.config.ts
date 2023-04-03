@@ -96,8 +96,5 @@ export default defineNuxtConfig({
     markdown: {
       mdc: true,
     },
-    highlight: {
-      theme: 'github-dark',
-    },
   },
 })

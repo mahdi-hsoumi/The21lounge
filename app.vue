@@ -25,7 +25,7 @@ useHead({
 <template>
   <Html :class="`${theme === 'dark' ? 'dark' : ''}`" :lang="locale">
     <Body
-      class="antialiased duration-300 transition-colors text-gray-800 dark:text-gray-200 bg-bgLight dark:bg-gray-900"
+      class="antialiased duration-300 transition-colors text-gray-800 bg-bgLight"
     >
       <NuxtLayout>
         <NuxtLoadingIndicator :height="5" :duration="3000" :throttle="400" />
