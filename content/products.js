@@ -276,4 +276,50 @@ export default [
       },
     ],
   },
+  {
+    Glace: [
+      {
+        id: 1,
+        title: 'Glaces',
+        description: '2 boules au choix',
+        price: '9.000DT',
+        image: '/assets/glace/glace-2-boule.jpg',
+      },
+      {
+        id: 2,
+        title: 'Glaces',
+        description: '3 boules au choix',
+        price: '10.000DT',
+        image: '/assets/glace/Glace-3-boule.avif',
+      },
+      {
+        id: 3,
+        title: 'Glaces',
+        description: '2 boules fruit secs',
+        price: '12.000DT',
+        image: '/assets/glace/Glace-2-boule-fruits-sec.jpg',
+      },
+      {
+        id: 4,
+        title: 'Glaces',
+        description: '3 boules fruit secs',
+        price: '14.000DT',
+        image: '/assets/glace/glace-3-boule-fruits-sec.jpg',
+      },
+      {
+        id: 5,
+        title: 'Banana split',
+        description: '3 boules au choix',
+        price: '15.000DT',
+        image: '/assets/glace/banana-split-3-boule-aux-choix.jpg',
+      },
+      {
+        id: 5,
+        title: 'Banana split',
+        description: '3 boules aux fruit secs',
+        price: '16.000DT',
+        image: '/assets/glace/banana-split-3-boule-fruit-sec.jpg',
+      },
+    ],
+  },
 ]
