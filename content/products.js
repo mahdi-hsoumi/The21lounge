@@ -140,274 +140,140 @@ export default [
       },
     ],
   },
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Chocolat au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-    {
-      id: 2,
-      title: 'Nescafé au lait',
-      description:
-        'Ea cillum Lorem amet adipisicing consectetur magna quis voluptate in commodo do culpa id amet.',
-      price: '5.000DT',
-      image: '/assets/coffee/Nescafe-au-lait.jpg',
-    },
-  ],
+  {
+    Thé: [
+      {
+        id: 1,
+        title: 'Thé à la menthe',
+        description: '',
+        price: '5.000DT',
+        image: '/assets/thé/The-a-la-menthe.jpg',
+      },
+      {
+        id: 2,
+        title: 'Thé Lipton',
+        description: 'eau minérale',
+        price: '7.000DT',
+        image: '/assets/thé/The-Lipton.jpg',
+      },
+      {
+        id: 3,
+        title: 'Thé aux amandes',
+        description: '',
+        price: '9.000DT',
+        image: '/assets/thé/The-aux-amandes.jpg',
+      },
+      {
+        id: 4,
+        title: 'Thé aux pignons',
+        description: '',
+        price: '12.000DT',
+        image: '/assets/thé/The-aux-pignons.jpg',
+      },
+      {
+        id: 5,
+        title: 'Thé Baklawa',
+        description: 'Fruit sec',
+        price: '14.000DT',
+        image: '/assets/thé/The-Baklawa.jpg',
+      },
+    ],
+  },
+  {
+    'Coffee In': [
+      {
+        id: 1,
+        title: 'Café glacé',
+        description: 'Express, glaçon, caramel',
+        price: '8.000DT',
+        image: '/assets/COFFEE-IN/Café-glacé.jpg',
+      },
+      {
+        id: 2,
+        title: 'Café latte caramel',
+        description: 'express, mousse, sauce caramel',
+        price: '8.000DT',
+        image: '/assets/COFFEE-IN/Café-latte-caramel.jpg',
+      },
+      {
+        id: 3,
+        title: 'Choco latte',
+        description: 'Chocolat chaud, lait, mousse, chantilly',
+        price: '8.000DT',
+        image: '/assets/COFFEE-IN/Choco-latte.jpg',
+      },
+      {
+        id: 4,
+        title: 'Choco café noisette',
+        description:
+          'Chocolat chaud, express, boule de glace, mousse lait, chantilly, arôme fruit sec, noisette',
+        price: '9.500DT',
+        image: '/assets/COFFEE-IN/Choco-café-noisette.jpg',
+      },
+      {
+        id: 5,
+        title: 'Choco café pistache',
+        description:
+          'Chocolat chaud, express, boule de glace, mousse lait, chantilly, arôme fruit sec, pistache',
+        price: '9.500DT',
+        image: '/assets/COFFEE-IN/Choco-café-pistache.jpg',
+      },
+      {
+        id: 6,
+        title: 'Choco banane',
+        description: 'Chocolat chaud, banane, chantilly',
+        price: '9.500DT',
+        image: '/assets/COFFEE-IN/Choco-banane.jpg',
+      },
+      {
+        id: 7,
+        title: 'Café glacé liégeois',
+        description: 'Express froide, boule de glace, caramel, chantilly',
+        price: '10.000DT',
+        image: '/assets/COFFEE-IN/cafe-liégeois.jpg',
+      },
+      {
+        id: 8,
+        title: 'Café frappé',
+        description: 'Express, Boule de glace, vanille, glaçon',
+        price: '10.000DT',
+        image: '/assets/COFFEE-IN/Café-frappé.jpg',
+      },
+      {
+        id: 9,
+        title: 'Chocolat chaud',
+        description: '',
+        price: '10.000DT',
+        image: '/assets/COFFEE-IN/chocolat_chaud_1.jpg',
+      },
+      {
+        id: 10,
+        title: 'Frappuccino',
+        description: 'Express, boule de glace, vanille, glaçon, chantilly',
+        price: '12.000DT',
+        image: '/assets/COFFEE-IN/Frappuccino.jpg',
+      },
+      {
+        id: 11,
+        title: 'Choco glacé liégeois',
+        description: 'Chocolat glacé, boule de glace, caramel, chantilly',
+        price: '12.000DT',
+        image: '/assets/COFFEE-IN/Choco-glacé-liégeois.jpg',
+      },
+      {
+        id: 12,
+        title: 'Choco chaud viennois',
+        description: 'Chocolat chaud, boule de glace, caramel, chantilly',
+        price: '12.000DT',
+        image: '/assets/COFFEE-IN/Choco-chaud-viennois.jpg',
+      },
+      {
+        id: 13,
+        title: 'Chocolat chaud aux fruit sec',
+        description: '',
+        price: '14.000DT',
+        image: '/assets/COFFEE-IN/Chocolat-chaud-aux-fruit-sec.jpg',
+      },
+    ],
+  },
 ]
