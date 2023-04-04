@@ -40,7 +40,7 @@ defineProps({
     <slot />
   </div>
 </template>
-<style>
+<style scoped>
 .card-image {
   height: 100%;
   min-width: 120px;

@@ -1,5 +1,5 @@
 <script setup>
-import products from '~/content/products'
+import categories from '~/content/products'
 const route = useRoute()
 // composable
 
@@ -23,17 +23,20 @@ const currentProduct = useState('currentProduct', () => null)
 <template>
   <div>
     <div class="container">
-      <div class="px-5 pt-10 text-dark">
-        <div class="flex items-center w-full pb-10">
-          <NuxtLink to="/">
-            <IconMdi:arrowLeft class="text-xl cursor-pointer" />
-          </NuxtLink>
-
-          <h1 class="w-full text-lg font-bold text-center">Coffee</h1>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-5">
+      <div class="px-5 pt-5 text-dark">
+        <NuxtLink to="/" class="absolute top-[45px]">
+          <IconMdi:arrowLeft class="text-xl cursor-pointer" />
+        </NuxtLink>
+        <div
+          v-for="category in Object.keys(categories[id])"
+          :key="category"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-5"
+        >
+          <h3 class="pb-2.5 text-2xl font-bold text-center capitalize">
+            {{ category }}
+          </h3>
           <CardProduct
-            v-for="product in products[id]"
+            v-for="product in categories[id][category]"
             :id="product.id"
             :key="product.id"
             :title="product.title"
