@@ -7,7 +7,7 @@ export default [
   { id: 6, title: 'Crêpe', image: '/assets/category/crêpe.jpg' },
   { id: 7, title: 'Fast food', image: '/assets/category/fast-food.jpg' },
   { id: 8, title: 'Menu kids', image: '/assets/category/kids.jpg' },
-  { id: 9, title: 'Pizza', image: '/assets/category/pizza.jpeg' },
+  { id: 9, title: 'Pizza', image: '/assets/category/pizza.jpg' },
   { id: 10, title: 'Entrée', image: '/assets/category/entree.jpg' },
   { id: 11, title: 'Pasta', image: '/assets/category/pasta.jpg' },
   { id: 12, title: 'Plats', image: '/assets/category/plats.jpg' },
