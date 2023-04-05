@@ -42,7 +42,10 @@ const scrollToTop = () => {
   <div>
     <div class="container">
       <div class="px-5 pt-5 text-dark">
-        <div class="nav-cat overflow-x-scroll flex w-90vw">
+        <div
+          v-if="Object.keys(categories[id]).length > 2"
+          class="nav-cat overflow-x-scroll flex w-90vw"
+        >
           <div class="flex flex-nowrap gap-3">
             <div
               v-for="category in Object.keys(categories[id])"
@@ -66,7 +69,15 @@ const scrollToTop = () => {
           </div>
         </div>
 
-        <NuxtLink to="/" class="absolute top-[155px]">
+        <NuxtLink
+          to="/"
+          class="absolute"
+          :class="
+            Object.keys(categories[id]).length > 2
+              ? 'top-[155px]'
+              : 'top-[45px]'
+          "
+        >
           <IconMdi:arrowLeft class="text-xl cursor-pointer" />
         </NuxtLink>
         <div
@@ -122,7 +133,10 @@ const scrollToTop = () => {
         </div>
       </div>
     </div>
-    <div class="p-5 fixed bottom-0 right-0">
+    <div
+      v-if="Object.keys(categories[id]).length > 2"
+      class="p-5 fixed bottom-0 right-0"
+    >
       <button
         class="rounded-[50%] arrow-top bg-secondary"
         @click="scrollToTop()"
