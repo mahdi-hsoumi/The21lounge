@@ -54,7 +54,7 @@ const currentProduct = useState('currentProduct', () => null)
         @click="currentProduct = null"
       ></div>
       <div
-        class="absolute z-20 bottom-0 p-5 w-full h-[55vh] bg-white rounded-t-[30px] flex flex-col justify-between"
+        class="absolute z-20 bottom-0 p-5 w-full h-[65vh] bg-white rounded-t-[30px] flex flex-col justify-between"
       >
         <div>
           <div
