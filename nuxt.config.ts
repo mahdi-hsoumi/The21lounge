@@ -26,10 +26,8 @@ export default defineNuxtConfig({
   // modules
   modules: [
     'unplugin-icons/nuxt',
-    '@intlify/nuxt3',
     '@pinia/nuxt',
     '@nuxt/content',
-    '@vueuse/nuxt',
     'nuxt-windicss',
   ],
 
@@ -59,21 +57,6 @@ export default defineNuxtConfig({
   app: {
     // global transition
     pageTransition: { name: 'page', mode: 'out-in' },
-  },
-
-  // localization - i18n config
-  intlify: {
-    localeDir: 'locales',
-    vueI18n: {
-      locale: 'en',
-      fallbackLocale: 'en',
-      availableLocales: ['en', 'fr', 'ar'],
-    },
-  },
-
-  // vueuse
-  vueuse: {
-    ssrHandlers: true,
   },
 
   // windicss

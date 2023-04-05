@@ -1,9 +1,14 @@
-<script lang="ts" setup>
+<script setup>
 import categories from '~/content/categories'
 
 // meta
 definePageMeta({
   layout: 'page',
+})
+
+onMounted(() => {
+  const body = document.getElementsByTagName('body')[0]
+  body.classList.remove('overflow-hidden')
 })
 </script>
 
