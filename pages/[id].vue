@@ -54,7 +54,7 @@ const currentProduct = useState('currentProduct', () => null)
         @click="currentProduct = null"
       ></div>
       <div
-        class="absolute z-20 bottom-0 p-5 w-full h-[65vh] bg-white rounded-t-[30px] flex flex-col justify-between"
+        class="absolute z-20 bottom-0 p-5 w-full h-[55vh] bg-white rounded-t-[30px] flex flex-col justify-between"
       >
         <div>
           <div
@@ -66,12 +66,6 @@ const currentProduct = useState('currentProduct', () => null)
             {{ currentProduct.description }}
           </p>
           <p class="text-lg">{{ currentProduct.price }}</p>
-        </div>
-        <div
-          class="w-100% text-center bg-secondary py-2 rounded-3xl font-bold text-lg text-white hover:bg-secondary/25"
-          @click="currentProduct = null"
-        >
-          Close
         </div>
       </div>
     </div>
