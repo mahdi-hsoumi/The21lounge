@@ -48,15 +48,19 @@ const currentProduct = useState('currentProduct', () => null)
         </div>
       </div>
     </div>
-    <div
-      v-if="currentProduct"
-      class="fixed top-0 h-[100vh] w-full bg-black/50 flex items-end"
-    >
+    <div v-if="currentProduct" class="fixed top-0 h-[100vh] w-[100vw]">
       <div
-        class="p-5 w-full h-[70vh] bg-white rounded-t-[30px] flex flex-col justify-between"
+        class="absolute z-10 top-0 h-[100%] w-[100%] w-full bg-black/50 flex items-end"
+        @click="currentProduct = null"
+      ></div>
+      <div
+        class="absolute z-20 bottom-0 p-5 w-full h-[65vh] bg-white rounded-t-[30px] flex flex-col justify-between"
       >
         <div>
-          <img :src="currentProduct.image" class="rounded-[30px]" />
+          <div
+            class="mr-5 rounded-[30px] modal-image"
+            :style="`background-image: url(${currentProduct.image});`"
+          ></div>
           <h3 class="text-lg font-bold mt-5">{{ currentProduct.title }}</h3>
           <p class="text-base two-line-ellipsis" style="">
             {{ currentProduct.description }}
@@ -73,3 +77,12 @@ const currentProduct = useState('currentProduct', () => null)
     </div>
   </div>
 </template>
+<style>
+.modal-image {
+  height: 35vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+</style>

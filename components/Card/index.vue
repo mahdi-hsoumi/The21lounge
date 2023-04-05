@@ -35,7 +35,7 @@ defineProps({
 <style scoped>
 .card-image {
   height: 100px;
-  min-width: 120px;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
