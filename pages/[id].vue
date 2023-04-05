@@ -1,4 +1,5 @@
 <script setup>
+import categoriesNames from '~/content/categories'
 import categories from '~/content/products'
 const route = useRoute()
 // composable
@@ -9,15 +10,19 @@ definePageMeta({
   layout: 'page',
 })
 useHead(() => ({
-  title: 'pages.blank.title',
+  title: 'The 21 Lounge - ' + categoriesNames[id],
   meta: [
     {
       name: 'description',
-      content: 'pages.blank.description',
+      content: 'The 21 Lounge - ' + categoriesNames[id],
     },
   ],
 }))
+
 const currentProduct = useState('currentProduct', () => null)
+onMounted(() => {
+  currentProduct.value = null
+})
 </script>
 
 <template>
