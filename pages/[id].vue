@@ -120,7 +120,19 @@ const scrollToTop = () => {
       <div
         class="absolute z-20 left-0 bottom-0 w-full p-5 h-[65vh] bg-white rounded-t-[30px] flex flex-col justify-between"
       >
-        <div>
+        <div class="relative">
+          <button
+            style="padding: 10px"
+            class="absolute top-[-45px] right-[-15px] rounded-[50%] arrow-top bg-secondary text-white"
+            @click="
+              () => {
+                currentProduct = null
+                enableScroll()
+              }
+            "
+          >
+            <IconMdi:close class="text-lg cursor-pointer" />
+          </button>
           <div
             class="mr-5 rounded-[30px] modal-image"
             :style="`background-image: url(${currentProduct.image});`"
