@@ -4,7 +4,7 @@ import UnpluginComponentsVite from 'unplugin-vue-components/vite';
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   // server side rendering mode
-  ssr: false,
+  ssr: true,
 
   // typescripts
   typescript: {
