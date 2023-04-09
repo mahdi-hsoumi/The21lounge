@@ -174,7 +174,7 @@ export default [
       },
       {
         id: 2,
-        title: 'Thé Lipton',
+        title: 'Thé Infusion',
         description: 'eau minérale',
         price: '7.000DT',
         image: '/assets/thé/The-Lipton.jpg',
@@ -184,7 +184,7 @@ export default [
         title: 'Thé aux amandes',
         description: '',
         price: '9.000DT',
-        image: '/assets/thé/The-aux-amandes.png',
+        image: '/assets/thé/The-aux-amandes.jpg',
       },
       {
         id: 4,
@@ -533,7 +533,7 @@ export default [
         title: 'Apple mojito',
         description: 'Pomme , menthe vert, arôme , glaçon',
         price: '12.000DT',
-        image: '/assets/juice/MOJITO/Apple-mojito.jpeg',
+        image: '/assets/juice/MOJITO/Apple-mojito.jpg',
       },
       {
         id: 5,
