@@ -175,7 +175,7 @@ export default [
       {
         id: 2,
         title: 'Thé Infusion',
-        description: 'eau minérale',
+        description: '',
         price: '7.000DT',
         image: '/assets/thé/The-Lipton.jpg',
       },
@@ -653,7 +653,7 @@ export default [
     Smoothie: [
       {
         id: 1,
-        title: 'Smoothie aux choix',
+        title: 'Smoothie au choix',
         description: 'kiwi au fraise au banane',
         price: '14.000DT',
         image: '/assets/juice/smoothie/Smoothie-aux-choix.jpg',
@@ -802,7 +802,7 @@ export default [
       },
       {
         id: 4,
-        title: 'Crêpe poulet',
+        title: 'Crepe poulet fromage',
         description: 'sauce blanche, fromage, poulet',
         price: '16.000DT',
         image: '/assets/Crepe/crepe-sale/Crêpepoulet.jpg',
@@ -1098,7 +1098,7 @@ export default [
     ],
   },
   {
-    'MENU KIDS': [
+    'So kids': [
       {
         id: 1,
         title: 'KIDS 1',
@@ -1116,14 +1116,14 @@ export default [
       {
         id: 3,
         title: 'KIDS FOOD 1 (2 ENFANTS)',
-        description: 'CHEESBURGER+ NUGGETS + 2 FRITES + 2 SODAS',
+        description: 'CHEESEBURGER + NUGGETS + 2 FRITES + 2 SODAS',
         price: '26.000DT',
         image: '/assets/Menu-kids/kidsfood1.jpg',
       },
       {
         id: 4,
         title: 'KIDS FOOD 2 (2 ENFANTS)',
-        description: '2 CHEESBURGER+2 FRITES + 2 SODAS',
+        description: '2 CHEESEBURGER+2 FRITES + 2 SODAS',
         price: '28.000DT',
         image: '/assets/Menu-kids/KIDSFOOD2.jpg',
       },
@@ -1273,7 +1273,7 @@ export default [
       },
       {
         id: 4,
-        title: 'Salade buraata',
+        title: 'Salade Burrata',
         description: '',
         price: '20.000DT',
         image: '/assets/Entree/salade/Saladeburaata.jpg',
@@ -1342,7 +1342,7 @@ export default [
     'Ravioli Frais': [
       {
         id: 1,
-        title: '4 Fromage',
+        title: '4 Fromages',
         description: '',
         price: '24.000DT',
         image: '/assets/pasta/RAVIOLI4frommage.webp',
