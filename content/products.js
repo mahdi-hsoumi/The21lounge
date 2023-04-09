@@ -654,7 +654,7 @@ export default [
       {
         id: 1,
         title: 'Smoothie au choix',
-        description: 'kiwi au fraise au banane',
+        description: 'kiwi - fraise - banane',
         price: '14.000DT',
         image: '/assets/juice/smoothie/Smoothie-aux-choix.jpg',
       },
