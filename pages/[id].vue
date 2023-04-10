@@ -133,10 +133,16 @@ const scrollToTop = () => {
           >
             <IconMdi:close class="text-lg cursor-pointer" />
           </button>
-          <div
+          <img
+            :src="currentProduct.image"
+            class="rounded-[30px]"
+            style="margin: auto; max-height: 40vh"
+            alt=""
+          />
+          <!-- <div
             class="mr-5 rounded-[30px] modal-image"
-            :style="`background-image: url(${currentProduct.image});`"
-          ></div>
+            :style="`background-image: url(${});`"
+          ></div> -->
           <h3 class="text-lg font-bold mt-5">{{ currentProduct.title }}</h3>
           <p class="text-base two-line-ellipsis" style="">
             {{ currentProduct.description }}
