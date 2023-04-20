@@ -6,7 +6,7 @@ export default [
         title: 'Good Morning',
         description: 'Café, Croissant, mini jus, yaourt (eau 0.5L)',
         price: '9.000DT',
-        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+        image: '/assets/petit-déjeuner/good-morning.jpg',
       },
       {
         id: 2,
@@ -52,9 +52,9 @@ export default [
         id: 7,
         title: 'Ideal',
         description:
-          "2 Cafés, 2 viennoiseries (croissant +cake), 2 mini jus, 2 mini crêpes, beurre, confiture, chamia, yaourt. salade de fruits, miel, chocolat, huile d'olive pain de mie, mlawi, charcuteries, chocolat, 2 mini fondants",
+          "2 Cafés, 2 viennoiseries (croissant + cake), 2 mini jus, 2 mini crêpes, beurre, confiture, chamia, yaourt. salade de fruits, miel, chocolat, huile d'olive pain de mie, mlawi, charcuteries, chocolat, 2 mini fondants",
         price: '43.000DT',
-        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+        image: '/assets/petit-déjeuner/Ideal.jpg',
       },
       {
         id: 8,
@@ -62,7 +62,7 @@ export default [
         description:
           "2 Cafés, 2 viennoiseries (croissant + cake), 2 mini jus, 2 mini crêpes, beurre, confiture, chamia, yaourt. miel, chocolat, huile d'olive, salade de fruits 2 mini fondants pain de mie, ojja, nuggets, mlawi, charcuteries, omelettes. frites, salade variée, eau 1 L",
         price: '49.000DT',
-        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+        image: '/assets/petit-déjeuner/THE-21.jpg',
       },
     ],
     Supplément: [
@@ -71,28 +71,28 @@ export default [
         title: 'Omelette',
         description: '',
         price: '7.000DT',
-        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+        image: '/assets/petit-déjeuner/Omelette.jpg',
       },
       {
         id: 2,
         title: 'Charcuteries + Fromages',
         description: '',
         price: '9.000DT',
-        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+        image: '/assets/petit-déjeuner/Charcuteries.jpg',
       },
       {
         id: 3,
         title: '(Beurre, chamia, confiture)',
         description: '',
         price: '5.000DT',
-        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+        image: '/assets/petit-déjeuner/confiture.jpg',
       },
       {
         id: 4,
         title: 'Corbeille à pain (mlawi, toast)',
         description: '',
         price: '2.500DT',
-        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+        image: '/assets/petit-déjeuner/mlawi.jpg',
       },
     ],
   },
