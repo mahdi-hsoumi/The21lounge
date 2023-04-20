@@ -1,4 +1,9 @@
 export default [
+  {
+    id: 0,
+    title: 'Petit Déjeuner',
+    image: '/assets/category/petit-déjeuner.jpg',
+  },
   { id: 1, title: 'Coffee', image: '/assets/category/coffee.jpg' },
   { id: 2, title: 'Thé', image: '/assets/category/thé.jpg' },
   { id: 3, title: 'Coffee In', image: '/assets/category/coffee-in.jpg' },

@@ -3,6 +3,103 @@ export default [
     Coffee: [
       {
         id: 1,
+        title: 'Good Morning',
+        description: 'Café, Croissant, mini jus, yaourt (eau 0.5L)',
+        price: '9.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 2,
+        title: 'SO KIDS',
+        description:
+          'Chocolat au lait, viennoiserie (croissant + cake), céréales, oeufs brouillés, mini crêpe, mini jus, surprise',
+        price: '12.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 3,
+        title: 'Energy Formule Sucrée',
+        description:
+          "Café, viennoiserie (croissant + cake), mini jus pain de mie, pancake, mlawi, beurre, confiture, chamia, miel, chocolat, huile d'olive salade de fruits, yaourt (eau 0.5L)",
+        price: '17.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 4,
+        title: 'Half & Half Formule Salée',
+        description:
+          'Café, viennoiserie (croissant + cake), mini jus pain de mie, mlawi, beurre, omelette, salade Variée, charcuterie, salade de fruits, (eau 0.5L)',
+        price: '20.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 5,
+        title: 'Healthy',
+        description:
+          'Granulats, yaourt, café ou thé infusion, pain complet, goûta, miel, oeuf, jambons, fromages jus frais, coupe de fruits',
+        price: '20.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 6,
+        title: 'Tunisia',
+        description:
+          "Café ou café turc, beurre, chamia, miel, huile d'olive, dattes, bsissa, gouta, fromages, olives, harissa, mokli, mini jus, mlawi, fruits rayeb ou lben ou drôo, (eau 0.5L)",
+        price: '22.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 7,
+        title: 'Ideal',
+        description:
+          "2 Cafés, 2 viennoiseries (croissant +cake), 2 mini jus, 2 mini crêpes, beurre, confiture, chamia, yaourt. salade de fruits, miel, chocolat, huile d'olive pain de mie, mlawi, charcuteries, chocolat, 2 mini fondants",
+        price: '43.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 8,
+        title: 'THE 21',
+        description:
+          "2 Cafés, 2 viennoiseries (croissant + cake), 2 mini jus, 2 mini crêpes, beurre, confiture, chamia, yaourt. miel, chocolat, huile d'olive, salade de fruits 2 mini fondants pain de mie, ojja, nuggets, mlawi, charcuteries, omelettes. frites, salade variée, eau 1 L",
+        price: '49.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+    ],
+    Supplément: [
+      {
+        id: 1,
+        title: 'Omelette',
+        description: '',
+        price: '7.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 2,
+        title: 'Charcuteries + Fromages',
+        description: '',
+        price: '9.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 3,
+        title: '(Beurre, chamia, confiture)',
+        description: '',
+        price: '5.000DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+      {
+        id: 4,
+        title: 'Corbeille à pain (mlawi, toast)',
+        description: '',
+        price: '2.500DT',
+        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+      },
+    ],
+  },
+  {
+    Coffee: [
+      {
+        id: 1,
         title: 'Chocolat au lait',
         description: '',
         price: '5.000DT',

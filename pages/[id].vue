@@ -5,7 +5,10 @@ const route = useRoute()
 // composable
 
 // compiler macro
-const id = route.params.id * 1 - 1
+let id = route.params.id * 1 - 1
+if (route.params.id === '0') {
+  id = 0
+}
 definePageMeta({
   layout: 'page',
 })
@@ -143,11 +146,15 @@ const scrollToTop = () => {
             class="mr-5 rounded-[30px] modal-image"
             :style="`background-image: url(${});`"
           ></div> -->
-          <h3 class="text-lg font-bold mt-5">{{ currentProduct.title }}</h3>
+          <h3 class="text-2xl mb-3 font-bold mt-5 text-center">
+            {{ currentProduct.title }}
+          </h3>
           <p class="text-base two-line-ellipsis" style="">
             {{ currentProduct.description }}
           </p>
-          <p class="text-lg">{{ currentProduct.price }}</p>
+          <p class="text-lg font-bold mt-3 text-right">
+            {{ currentProduct.price }}
+          </p>
         </div>
       </div>
     </div>
