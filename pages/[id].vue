@@ -5,10 +5,8 @@ const route = useRoute()
 // composable
 
 // compiler macro
-let id = route.params.id * 1 - 1
-if (route.params.id === '0') {
-  id = 0
-}
+const id = route.params.id * 1 - 1
+
 definePageMeta({
   layout: 'page',
 })
