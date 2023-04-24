@@ -116,7 +116,7 @@ export default [
         id: 3,
         title: 'Express',
         description: '',
-        price: '4.000DT',
+        price: '4.500DT',
         image: '/assets/coffee/Express.jpeg',
       },
       {
