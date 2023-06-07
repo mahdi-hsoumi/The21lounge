@@ -62,7 +62,6 @@ export default [
         description:
           '2 Cafés , 2 viennoiseries ( croissant + cake), 2 minis jus, 2 minis crêpes , beurre, confiture, chamia, charcuteries, huile d’olive, yaourt, brochette de fruits, 2 minis gateaux, ojja, mlawi, pain de mie, 2 croissant salé, 2 brochettes escalope omelette, frites, salade variée, eau 1 L',
         price: '49.000DT',
-
         image: '/assets/petit-déjeuner/the21.png',
       },
     ],
