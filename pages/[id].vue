@@ -120,7 +120,7 @@ const scrollToTop = () => {
         "
       ></div>
       <div
-        class="absolute z-20 left-0 bottom-0 w-full p-5 h-[65vh] bg-white rounded-t-[30px] flex flex-col justify-between"
+        class="absolute z-20 left-0 bottom-0 w-full p-5 bg-white rounded-t-[30px] flex flex-col justify-between"
       >
         <div class="relative">
           <button
@@ -138,7 +138,7 @@ const scrollToTop = () => {
           <img
             :src="currentProduct.image"
             class="rounded-[30px]"
-            style="margin: auto; max-height: 40vh"
+            style="margin: auto;"
             alt=""
           />
           <!-- <div
