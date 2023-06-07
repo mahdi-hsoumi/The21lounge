@@ -28,7 +28,7 @@ const app = useAppConfig() as AppConfigInput
           </a>
         </div>
         <div class="text-xs text-gray-600 mt-1 dark:text-gray-400">
-          Copyright © 2022 <a :href="app.author.link">{{ app.author.name }}</a
+          Copyright © 2023 Quick Menu
           >. All rights reserved. Made with
           <span class="text-red-500">❤</span>
         </div>
