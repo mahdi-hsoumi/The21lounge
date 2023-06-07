@@ -38,7 +38,7 @@ export default [
         description:
           'Granulats, yaourt, café ou thé infusion, pain complet, gouta, miel , oeuf, jambon, fromage jus frais, coupe de fruits',
         price: '20.000DT',
-        image: '/assets/petit-déjeuner/petit-déjeuner.jpg',
+        image: '/assets/petit-déjeuner/healthy.png',
       },
       {
         id: 6,
@@ -54,7 +54,7 @@ export default [
         description:
           '2 Cafés, 2 viennoiseries ( croissant + cake), 2 minis jus, 2 minis crêpes , beurre, confiture, chamia, miel, chocolat, huile d’olive, yaourt, brochette de fruits, pain de mie, mlawi, charcuteries, 2 Hot dog, Boulettes de fromages , 2 minis gateaux, Eau 1L',
         price: '43.000DT',
-        image: '/assets/petit-déjeuner/Ideal.jpg',
+        image: '/assets/petit-déjeuner/Ideal.png',
       },
       {
         id: 8,
@@ -231,14 +231,14 @@ export default [
         title: 'Spécial cappuccino',
         description: '',
         price: '12.000DT',
-        image: '/assets/coffee/italian-Cappuccino-special.jpg',
+        image: '/assets/coffee/cappu.png',
       },
       {
         id: 9,
         title: 'Cappuccino The 21',
         description: '',
         price: '15.000DT',
-        image: '/assets/coffee/italian-Cappuccino-special.jpg',
+        image: '/assets/coffee/cappucspes.png',
       },
     ],
     'Cafe Turk': [
@@ -247,7 +247,7 @@ export default [
         title: 'Café Turc',
         description: 'Café turc préparé dans le sable chaud',
         price: '10.000DT',
-        image: '/assets/coffee/CAFÉ-TURC.jpg',
+        image: '/assets/coffee/cafet.png',
       },
     ],
     'Arômes & Suppléments': [
