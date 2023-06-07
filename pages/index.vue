@@ -20,7 +20,7 @@ onMounted(() => {
       </div>
     </div>
     <div class="pt-12 pb-3 px-5">
-      <p class="font-bold text-lg text-secondary">Welcome!</p>
+      <p class="font-bold text-lg text-secondary">Welcome to THE 21!</p>
       <p class="text-base">What do you want to order</p>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
