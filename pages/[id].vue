@@ -108,6 +108,7 @@ const scrollToTop = () => {
         </div>
       </div>
     </div>
+
     <div v-if="currentProduct" class="fixed left-0 top-0 h-[100vh] w-full">
       <div
         class="absolute z-10 left-0 top-0 h-[100%] w-full w-full bg-black/50 flex items-end"
